@@ -1,10 +1,10 @@
-import { Products } from "../components/ApiCalling/Apicalling";
+import { Customerouting } from "../components/ReactRouting/Main";
 
 
 export const PracticeDashboard = () => {
   return (
     <>
-    <Products/>
+    <Customerouting/>
     </>
   );
 };

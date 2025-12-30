@@ -1,0 +1,74 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar */
+.Navbar {
+  background: linear-gradient(90deg, #1e3c72, #2a5298);
+  padding: 14px 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Nav list */
+.Navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+/* Links */
+.Navbar ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 6px 10px;
+  border-radius: 4px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Hover */
+.Navbar ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Main content area */
+.content {
+  padding: 30px 40px;
+  min-height: calc(100vh - 70px);
+  background-color: #f4f6f9;
+}
+
+/* Page cards (optional – reusable) */
+.page-card {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+/* Headings */
+.content h1 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* Buttons (use anywhere) */
+.btn {
+  background-color: #2a5298;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background-color: #1e3c72;
+}
