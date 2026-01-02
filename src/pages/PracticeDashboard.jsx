@@ -1,10 +1,10 @@
-import { Customerouting } from "../components/ReactRouting/Main";
 
+import { CustomHook } from "../components/CustomeHooks/Customhooks";
 
 export const PracticeDashboard = () => {
   return (
     <>
-    <Customerouting/>
+   <CustomHook/>
     </>
   );
 };

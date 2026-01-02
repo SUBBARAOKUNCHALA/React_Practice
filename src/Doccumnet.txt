@@ -1,0 +1,19 @@
+difference b/w Link tag And Anchor tag
+--------------------------------------
+
+Link Tag is React Router Dom Element Which Allow you to Route From one component to anothet With Out Page Load;
+
+Anchor Tag is Basic Html tag this also navigate from one to anothet component but Page will be reloaded;
+
+
+What is the use useReff hook:-
+------------------------------
+
+by using useReff hook we can take the html elemets from dom it is exactly like documnet.getElementById like that
+
+What is the use Custom Hook in Recat:--
+-----------------------------------------
+
+by using Custom Hooks We can decrese the time complexity and easy maintaince and reuseable hooks 
+
+
