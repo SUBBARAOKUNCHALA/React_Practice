@@ -1,0 +1,89 @@
+.admin-card {
+  width: 320px;
+  position: absolute;
+  padding: 20px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #f8f9ff, #eef1ff);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Toggle container */
+.admin-toggle {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+}
+
+/* Hide default checkbox */
+.admin-toggle input {
+  display: none;
+}
+
+/* Slider */
+.slider {
+  position: relative;
+  width: 48px;
+  height: 24px;
+  background-color: #cfd3ff;
+  border-radius: 30px;
+  transition: background 0.3s ease;
+}
+
+/* Circle */
+.slider::before {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 3px;
+  top: 3px;
+  background: white;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+/* Checked state */
+.admin-toggle input:checked + .slider {
+  background-color: #4f46e5;
+}
+
+.admin-toggle input:checked + .slider::before {
+  transform: translateX(24px);
+}
+
+.label-text {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Status text */
+.status {
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.status.active {
+  color: #16a34a;
+}
+
+.status.inactive {
+  color: #dc2626;
+}
+.component-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* spacing between components */
+}
+
+.component2-wrapper {
+  margin-top: 10px;
+}
+
+/* Make sure admin-card does NOT overlap */
+.admin-card {
+  position: relative; 
+}

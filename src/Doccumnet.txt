@@ -17,3 +17,7 @@ What is the use Custom Hook in Recat:--
 by using Custom Hooks We can decrese the time complexity and easy maintaince and reuseable hooks 
 
 
+What is the use Props Drllings in React:-
+-----------------------------------------
+
+by using props drilling we can send the data from parent component to chaild component and grand chaild component also 
